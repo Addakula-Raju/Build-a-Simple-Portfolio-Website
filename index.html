@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Raju - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav class="side-nav">
+        <ul>
+            <li><a href="#home" class="nav-link active" data-section="home"></a></li>
+            <li><a href="#projects" class="nav-link" data-section="projects"></a></li>
+            <li><a href="#skills" class="nav-link" data-section="skills"></a></li>
+            <li><a href="#contact" class="nav-link" data-section="contact"></a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="section">
+        <div class="content">
+            <img src="myphoto.jpg" alt="A Raju Photo" class="profile-pic">
+            <p class="intro">Hi, my name is</p>
+            <h1>A Raju</h1>
+            <h2>I build things for the web.</h2>
+            <p>I'm a Computer Science & AIML student at VMEG, passionate about creating intuitive and impactful digital experiences. Currently exploring web development and machine learning.</p>
+            <a href="#projects" class="btn">Check out my work</a>
+        </div>
+    </header>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <h3>Sorting Illustrator</h3>
+                <p>A web portal that visualizes sorting algorithms with interactive bar graphs. Users can customize array size and speed.</p>
+                <div class="tech">React.js • HTML • CSS • JavaScript</div>
+                <a href="https://github.com/Addakula-Raju" target="_blank" class="link">GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>Stock Price Prediction</h3>
+                <p>A dashboard using LSTM neural networks to predict stock prices, with data visualization.</p>
+                <div class="tech">Python • TensorFlow • Pandas • Matplotlib</div>
+                <a href="#" class="link">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-container">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">React.js</span>
+            <span class="skill">Python</span>
+            <span class="skill">Java</span>
+            <span class="skill">C</span>
+            <span class="skill">MongoDB</span>
+            <span class="skill">MySQL</span>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">Get In Touch</h2>
+        <p>I'm always open to new opportunities and collaborations. Feel free to reach out!</p>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Addakula-Raju" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/a-raju-053a5626b" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>Built by A Raju</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
